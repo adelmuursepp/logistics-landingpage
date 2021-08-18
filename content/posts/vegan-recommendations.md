@@ -1,0 +1,53 @@
+---
+template: SinglePost
+title: Plant-based Recommendations in Tallinn
+status: Published
+date: '2018-05-25'
+featuredImage: >-
+  https://ucarecdn.com/f9ba7699-72cc-4462-97b8-fd04365e5af4/-/crop/2072x1768/0,0/-/preview/
+excerpt: >-
+  This is placeholder text that our web designers put here to make sure words
+  appear properly on your website. This text is going to be replaced once the
+  website is completed. You are currently reading text that is written in
+  English, not any other language.
+meta:
+  description: test meta description
+  title: test meta title
+---
+
+![Test Image](https://ucarecdn.com/ac9898a0-413a-467b-95fa-0a9959c30710/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Id64silK_7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
+
+### Unordered lists:
+
+- this one
+- that one
+- the other one
+
+### Ordered lists:
+
+1. first item
+2. second item
+3. third item
+
+> Block quotes are written like so.
+>
+> They can span multiple paragraphs,
+> if you like.
+
+## Heading 2
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
