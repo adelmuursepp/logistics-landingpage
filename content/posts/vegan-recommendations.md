@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Plant-based Recommendations in Tallinn
+title: Finding transportation for your goods
 status: Published
 date: '2018-05-25'
 featuredImage: >-

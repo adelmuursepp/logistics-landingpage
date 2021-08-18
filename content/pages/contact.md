@@ -6,7 +6,7 @@ featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
 subtitle: Contact Us
 address: ''
 phone: 37253267578
-email: vegantours.tallinn@gmail.com
+email: meiliaadress@gmail.com
 locations:
   - lat: '-27.9654732'
     lng: '153.2432449'
