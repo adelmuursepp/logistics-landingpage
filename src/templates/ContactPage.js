@@ -5,7 +5,6 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
-import GoogleMap from '../components/GoogleMap'
 import Layout from '../components/Layout'
 import './ContactPage.css'
 
@@ -57,12 +56,10 @@ export const ContactPageTemplate = ({
         </div>
 
         <div>
-          <FormSimpleAjax name="Simple Form Ajax" />
+          <FormSimpleAjax name="Contact Form" />
         </div>
       </div>
     </section>
-
-    <GoogleMap locations={locations} />
   </main>
 )
 
