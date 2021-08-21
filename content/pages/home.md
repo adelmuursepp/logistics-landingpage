@@ -9,4 +9,8 @@ meta:
   title: Logistics
 ---
 
-# Pildid ja videod
+30 years of experience producing bespoke routines to handle emperature controlled shipments, multiple coolants, temperature monitors and specialized packaging quickly and efficiently.
+
+# FOR WHO?
+
+CAFS is good for any company – whether a start-up or a multinational. It handles all types of transportation: Air, Road, Sea and Courier.
