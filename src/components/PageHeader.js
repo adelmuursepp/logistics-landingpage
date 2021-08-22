@@ -14,21 +14,24 @@ const PageHeader = ({
 }) => {
   if (large) className += ' PageHeader-large'
   return (
-    <div className={`PageHeader relative ${className}`}>
-      {backgroundImage && (
-        <Image
-          background
-          resolutions="large"
-          src={backgroundImage}
-          alt={title}
-          size="cover"
-        />
-      )}
-      <div className="container relative">
-        <h1 className="PageHeader--Title">{title}</h1>
-        {subtitle && (
-          <Content className="PageHeader--Subtitle" src={subtitle} />
+    <div className="container">
+      <div className={`PageHeader relative ${className}`}>
+        {backgroundImage && (
+          <Image
+            background
+            resolutions="large"
+            src={backgroundImage}
+            alt={title}
+            size="cover"
+          />
         )}
+
+        <div className="container relative">
+          <h6 className="PageHeader--Title col-lg-6 mb-5">{title}</h6>
+          {subtitle && (
+            <Content className="PageHeader--Subtitle" src={subtitle} />
+          )}
+        </div>
       </div>
     </div>
   )

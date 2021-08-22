@@ -9,17 +9,21 @@
 }
 
 .PageHeader-large {
-  padding: 20rem 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 18rem;
+  padding-bottom: 4rem;
 }
 
 .PageHeader--Title {
-  font-size: 6rem;
-  margin-bottom: 0;
+  font-size: 1.5rem;
+  line-height: 2;
 }
 
 .PageHeader--Subtitle {
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  color: yellow;
 }
 
 .PageHeader .container {

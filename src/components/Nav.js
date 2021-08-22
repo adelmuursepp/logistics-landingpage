@@ -67,6 +67,7 @@ export class Navigation extends Component {
             tabIndex={0}
             aria-label="Navigation"
             role="button"
+            className="d-flex align-items-center"
           >
             <Logo />
           </Link>
@@ -75,7 +76,7 @@ export class Navigation extends Component {
             <NavLink to="/our-story/">Product</NavLink>
             <NavLink to="/user-stories/">Pricing</NavLink>
             <NavLink to="/blog/">Case studies</NavLink>
-            <NavLink to="/blog/">About Us</NavLink>
+            <NavLink to="/about-us/">About Us</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
