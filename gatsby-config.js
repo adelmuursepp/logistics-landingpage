@@ -109,6 +109,16 @@ module.exports = {
         enableIdentityWidget: true
       }
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Arimo`,
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }

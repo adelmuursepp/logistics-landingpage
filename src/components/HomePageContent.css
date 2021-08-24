@@ -8,3 +8,27 @@
   color: black;
   text-decoration: none;
 }
+
+.title-green {
+  color: #989936;
+}
+
+.title-red {
+  color: #cd6632;
+}
+
+.text-green {
+  color: #989936;
+}
+
+.text-red {
+  color: #cd6632;
+}
+
+.quote-text {
+  line-height: 1.4;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
