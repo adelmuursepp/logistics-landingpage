@@ -19,7 +19,7 @@ meta:
 The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. *Italic*, **bold**, and `monospace`.
 
 
-![test](https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80)
+![Foto lisamise näide](https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=640&q=80)
 
 
 
