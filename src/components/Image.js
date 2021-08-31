@@ -89,9 +89,11 @@ class Image extends React.Component {
     let style = {}
     if (background && lazy) {
       style = {
-        backgroundImage: `url(${
-          this.state.isIntersecting ? fullSrc : smallSrc
-        })`,
+        backgroundImage: `linear-gradient(
+          45deg,
+          rgba(145, 146, 122, 0.62),
+          rgba(217, 91, 132, 0.58)
+        ), url(${this.state.isIntersecting ? fullSrc : smallSrc})`,
         backgroundSize
       }
     } else {

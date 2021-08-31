@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.title-section {
+  font-size: 1.5em;
+}
+
 .title-green {
   color: #989936;
 }
@@ -27,6 +31,15 @@
 
 .quote-text {
   line-height: 1.4;
+}
+
+.link-small {
+  text-decoration: none;
+}
+
+.link-small:hover {
+  text-decoration: none;
+  color: #cd6632;
 }
 
 body {

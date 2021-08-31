@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomePageContent.css'
+import { Link } from 'gatsby'
 
 export default () => (
   <div>
@@ -19,7 +20,7 @@ export default () => (
     </div>
     <div className="row mt-5 pt-5 d-flex justify-content-between">
       <div className="col-lg-6 px-4">
-        <h2 className="title-green">FOR WHO?</h2>
+        <h2 className="title-green title-section">FOR WHO?</h2>
         <p>
           CAFS is good for any company – whether a start-up or a multinational.
           It handles all types of transportation: Air, Road, Sea and Courier.
@@ -34,7 +35,7 @@ export default () => (
         </p>
       </div>
       <div className="col-lg-6">
-        <h2 className="title-red">PRODUCT FUNCTIONALITY</h2>
+        <h2 className="title-red title-section">PRODUCT FUNCTIONALITY</h2>
         <ul>
           <li>
             Its clear and intuitive design makes for minimal learning time and
@@ -59,6 +60,11 @@ export default () => (
           </li>
           <li>Driver App for iPhone and Android.</li>
         </ul>
+        <div className="pl-4">
+          <Link to="/product" className="link-small">
+            Read more
+          </Link>
+        </div>
       </div>
     </div>
     <div className="row mt-5 pt-5">
