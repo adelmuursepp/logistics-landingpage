@@ -8,6 +8,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
+    'gatsby-plugin-fontawesome-css',
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {

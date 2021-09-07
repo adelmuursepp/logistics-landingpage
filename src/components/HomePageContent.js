@@ -1,6 +1,9 @@
 import React from 'react'
 import './HomePageContent.css'
 import { Link } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShip } from '@fortawesome/free-solid-svg-icons'
+import profilePhoto from '../../static/images/webcafs-profile.png'
 
 export default () => (
   <div>
@@ -16,7 +19,9 @@ export default () => (
           learning time and maximum productivity.
         </p>
       </div>
-      <div className="col-lg-4 taCenter">Ikoonid</div>
+      <div className="col-lg-4 taCenter">
+        <FontAwesomeIcon icon={faShip} /> Ikoonid <i class="fas fa-ship"></i>
+      </div>
     </div>
     <div className="row mt-5 pt-5 d-flex justify-content-between">
       <div className="col-lg-6 px-4">
@@ -69,7 +74,7 @@ export default () => (
     </div>
     <div className="row mt-5 pt-5">
       <div className="col-lg-6 quote-box">
-        <p className="quote-text text-green">
+        <p className="quote-text text-green mb-1">
           "Do your clients have special requirements, the data they give you, or
           the data they want from you ? We have 30 years experience of producing
           bespoke routines to handle such needs. Each user can design their own
@@ -78,8 +83,15 @@ export default () => (
           so well)."
         </p>
         <div className="d-flex justify-content-between">
-          <p className="quote-person text-red">Robet Parsons, MD of WebCafs</p>
-          <p className="quote-person">"foto"</p>
+          <p className="quote-person text-red mt-5">
+            Robet Parsons, MD of WebCafs
+          </p>
+
+          <img
+            src={profilePhoto}
+            alt="ProfilePhoto"
+            className="ProfilePhoto mt-0"
+          />
         </div>
       </div>
       <div className="col-lg-6 clients-box"></div>
