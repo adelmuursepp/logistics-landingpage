@@ -11,6 +11,10 @@ import {
   faTruckMoving
 } from '@fortawesome/free-solid-svg-icons'
 import profilePhoto from '../../static/images/webcafs-profile.png'
+import corporateLogo from '../../static/images/corporate-logo.png'
+import avonLogo from '../../static/images/avon-logo.jpeg'
+import phseLogo from '../../static/images/phse-logo.png'
+import westhouseLogo from '../../static/images/westhouse-logo.jpeg'
 
 export default () => (
   <div>
@@ -106,8 +110,29 @@ export default () => (
             className="ProfilePhoto mt-0"
           />
         </div>
+        <div>
+          <p className="quote-person text-red mt-5">SOME OF OUR CLIENTS</p>
+          <div className="d-flex justify-content-between mt-5">
+            <img src={avonLogo} alt="avonLogo" className="mt-0 client-logo" />
+            <img src={phseLogo} alt="phseLogo" className="mt-0 client-logo" />
+            <img
+              src={corporateLogo}
+              alt="corporateLogo"
+              className="mt-0 client-logo"
+            />
+            <img
+              src={westhouseLogo}
+              alt="westhouseLogo"
+              className="mt-0 client-logo"
+            />
+          </div>
+        </div>
       </div>
-      <div className="col-lg-6 clients-box"></div>
+      <div className="col-lg-6 video-box">
+        <h3 className="title-red title-section">
+          SEE HOW IT WORKS (2 min video tour)
+        </h3>
+      </div>
     </div>
   </div>
 )

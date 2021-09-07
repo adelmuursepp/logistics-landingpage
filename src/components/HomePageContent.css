@@ -10,7 +10,7 @@
 }
 
 .title-section {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .title-green {
@@ -53,4 +53,8 @@ body {
 
 .icon-homepage {
   font-size: 2em;
+}
+
+.client-logo {
+  height: 2em;
 }
