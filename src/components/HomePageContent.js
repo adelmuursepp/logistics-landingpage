@@ -2,13 +2,20 @@ import React from 'react'
 import './HomePageContent.css'
 import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShip } from '@fortawesome/free-solid-svg-icons'
+import {
+  faCloudUploadAlt,
+  faGlobeAmericas,
+  faUsers,
+  faPlaneDeparture,
+  faShip,
+  faTruckMoving
+} from '@fortawesome/free-solid-svg-icons'
 import profilePhoto from '../../static/images/webcafs-profile.png'
 
 export default () => (
   <div>
-    <div className="row mb-5 pb-5">
-      <div className="col-lg-8">
+    <div className="row mb-5 pb-5 d-flex justify-content-between">
+      <div className="col-lg-7">
         <p>
           30 years of experience producing bespoke routines to handle such needs
           quarantees that you are in good hands.
@@ -19,12 +26,17 @@ export default () => (
           learning time and maximum productivity.
         </p>
       </div>
-      <div className="col-lg-4 taCenter">
-        <FontAwesomeIcon icon={faShip} /> Ikoonid <i class="fas fa-ship"></i>
+      <div className="col-lg-4 taCenter d-flex justify-content-around">
+        <FontAwesomeIcon icon={faCloudUploadAlt} className="icon-homepage" />
+        <FontAwesomeIcon icon={faGlobeAmericas} className="icon-homepage" />
+        <FontAwesomeIcon icon={faUsers} className="icon-homepage" />
+        <FontAwesomeIcon icon={faPlaneDeparture} className="icon-homepage" />
+        <FontAwesomeIcon icon={faShip} className="icon-homepage" />
+        <FontAwesomeIcon icon={faTruckMoving} className="icon-homepage" />
       </div>
     </div>
     <div className="row mt-5 pt-5 d-flex justify-content-between">
-      <div className="col-lg-6 px-4">
+      <div className="col-lg-5 pr-5 mr-5">
         <h2 className="title-green title-section">FOR WHO?</h2>
         <p>
           CAFS is good for any company – whether a start-up or a multinational.
@@ -39,7 +51,8 @@ export default () => (
           providing detailed status updates.
         </p>
       </div>
-      <div className="col-lg-6">
+
+      <div className="col-lg-6 pl-5 ml-5">
         <h2 className="title-red title-section">PRODUCT FUNCTIONALITY</h2>
         <ul>
           <li>
@@ -72,8 +85,8 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="row mt-5 pt-5">
-      <div className="col-lg-6 quote-box">
+    <div className="row mt-5 pt-5 d-flex justify-content-between">
+      <div className="col-lg-5 quote-box">
         <p className="quote-text text-green mb-1">
           "Do your clients have special requirements, the data they give you, or
           the data they want from you ? We have 30 years experience of producing
