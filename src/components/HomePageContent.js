@@ -116,24 +116,24 @@ export default () => (
         <div>
           <p className="quote-person text-red mt-5">SOME OF OUR CLIENTS</p>
           <div className="d-flex row justify-content-between mt-5">
-            <div className=" col-lg-3 col-md-5 d-flex justify-content-center">
+            <div className=" col-lg-3 col-md-5 d-flex justify-content-center my-3">
               <img
                 src={avonLogo}
                 alt="avonLogo"
                 className="mt-0 client-logo "
               />
             </div>
-            <div className="col-lg-3 col-md-5 d-flex justify-content-center">
+            <div className="col-lg-3 col-md-5 d-flex justify-content-center my-3">
               <img src={phseLogo} alt="phseLogo" className="mt-0 client-logo" />
             </div>
-            <div className=" col-lg-3 col-md-5 d-flex justify-content-center">
+            <div className=" col-lg-3 col-md-5 d-flex justify-content-center my-3">
               <img
                 src={corporateLogo}
                 alt="corporateLogo"
                 className="mt-0 client-logo"
               />
             </div>
-            <div className="col-lg-3 col-md-5 d-flex justify-content-center">
+            <div className="col-lg-3 col-md-5 d-flex justify-content-center my-3">
               <img
                 src={westhouseLogo}
                 alt="westhouseLogo"
