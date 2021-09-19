@@ -58,3 +58,13 @@ body {
 .client-logo {
   height: 2em;
 }
+
+.demo-photo {
+  width: 36vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .demo-photo {
+    width: 80%;
+  }
+}

@@ -41,7 +41,7 @@ export const BlogIndexTemplate = ({
   featuredImage,
   posts = [],
   postCategories = [],
-  enableSearch = true,
+  enableSearch = false,
   contentType
 }) => (
   <Location>
@@ -54,13 +54,6 @@ export const BlogIndexTemplate = ({
       let queryObj = location.search.replace('?', '')
       queryObj = qs.parse(queryObj)
 
-      if (enableSearch && queryObj.s) {
-        const searchTerm = queryObj.s.toLowerCase()
-        filteredPosts = filteredPosts.filter(post =>
-          post.frontmatter.title.toLowerCase().includes(searchTerm)
-        )
-      }
-
       return (
         <main className="Blog">
           <PageHeader
@@ -68,14 +61,6 @@ export const BlogIndexTemplate = ({
             subtitle={subtitle}
             backgroundImage={featuredImage}
           />
-
-          {!!postCategories.length && (
-            <section className="section thin">
-              <div className="container">
-                <PostCategoriesNav enableSearch categories={postCategories} />
-              </div>
-            </section>
-          )}
 
           {!!posts.length && (
             <section className="section">
@@ -149,9 +134,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date
-            categories {
-              category
-            }
+
             featuredImage
           }
         }

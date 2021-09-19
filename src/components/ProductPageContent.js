@@ -1,5 +1,5 @@
 import React from 'react'
-import './HomePageContent.css'
+import './ProductPageContent.css'
 import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -23,15 +23,16 @@ export default () => (
   <div>
     <div className="row  pb-5 d-flex justify-content-between">
       <div className="col-lg-7 mb-5">
-        <bold>
-          30 years of experience producing bespoke routines to handle such needs
-          quarantees that you are in good hands.
-        </bold>
-        <bold>
-          All in one responsive web application in The Cloud, accessible from
-          Phone, iPad and Desktop, clear and intuitive design makes for minimal
-          learning time and maximum productivity.
-        </bold>
+        <p>
+          CAFS is all in one software for air, road, sea and courier transport.
+          It can fully handle temperature controlled shipments, multiple
+          coolants, temperature monitors and specialized packaging quickly and
+          efficiently.
+        </p>
+        <p className="title-green">
+          Get all functionalities with just one payment a month plus 24/7
+          support.
+        </p>
       </div>
       <div className="col-lg-4 taCenter d-flex justify-content-around mb-5">
         <FontAwesomeIcon icon={faCloudUploadAlt} className="icon-homepage" />
@@ -43,23 +44,38 @@ export default () => (
       </div>
     </div>
     <div className="row mt-5 pt-5 d-flex justify-content-between">
-      <div className="col-lg-5 pr-5 mr-5 mb-5">
-        <h2 className="title-green title-section">FOR WHO?</h2>
-        <p>
-          CAFS is good for any company – whether a start-up or a multinational.
-          It handles all types of transportation: Air, Road, Sea and Courier.
-        </p>
-        <p>
-          For the courier and freight companies CAFS enables to book, handle and
-          document collection and delivery information.
-        </p>
-        <p>
-          For the receiver/buyer it enables to follow the whole process
-          providing detailed status updates.
-        </p>
+      <div className="col-lg-5">
+        <img src={demo1} alt="Demo 1" className="mt-0 demo-photo" />
       </div>
-
-      <div className="col-lg-6 pl-5 ml-5 mb-5">
+      <div className="col-lg-6 quote-box d-flex flex-column justify-content-around ">
+        <h4 className="mb-5">
+          All in one responsive web application in The Cloud, accessible from
+          iPhone, iPad and Desktop. Clear intuitive design makes for minimal
+          learning time and maximum productivity.
+        </h4>
+        <div className="mt-5">
+          <p className="quote-person text-green mt-5">
+            WHICH CLIENTS USE THIS?
+          </p>
+          <div className="d-flex justify-content-between mt-5">
+            <img src={avonLogo} alt="avonLogo" className="mt-0 client-logo" />
+            <img src={phseLogo} alt="phseLogo" className="mt-0 client-logo" />
+            <img
+              src={corporateLogo}
+              alt="corporateLogo"
+              className="mt-0 client-logo"
+            />
+            <img
+              src={westhouseLogo}
+              alt="westhouseLogo"
+              className="mt-0 client-logo"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="row mt-5 pt-5 d-flex justify-content-between">
+      <div className="col-lg-5 pr-5 mr-5 mb-5">
         <h2 className="title-red title-section">PRODUCT FUNCTIONALITY</h2>
         <ul>
           <li>
@@ -91,52 +107,14 @@ export default () => (
           </Link>
         </div>
       </div>
-    </div>
-    <div className="row mt-5 pt-5 d-flex justify-content-between">
-      <div className="col-lg-5 quote-box">
-        <p className="quote-text text-green mb-1">
-          "Do your clients have special requirements, the data they give you, or
-          the data they want from you ? We have 30 years experience of producing
-          bespoke routines to handle such needs. Each user can design their own
-          reports, store them and run them again at any time outputing to
-          e-mail, Excel or Word hassle free.” (many other systems don ́t do that
-          so well)."
-        </p>
-        <div className="d-flex justify-content-between">
-          <p className="quote-person text-red mt-5">
-            Robet Parsons, MD of WebCafs
-          </p>
 
-          <img
-            src={profilePhoto}
-            alt="ProfilePhoto"
-            className="ProfilePhoto mt-0"
-          />
-        </div>
-        <div>
-          <p className="quote-person text-red mt-5">SOME OF OUR CLIENTS</p>
-          <div className="d-flex justify-content-between mt-5">
-            <img src={avonLogo} alt="avonLogo" className="mt-0 client-logo" />
-            <img src={phseLogo} alt="phseLogo" className="mt-0 client-logo" />
-            <img
-              src={corporateLogo}
-              alt="corporateLogo"
-              className="mt-0 client-logo"
-            />
-            <img
-              src={westhouseLogo}
-              alt="westhouseLogo"
-              className="mt-0 client-logo"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="col-lg-6 video-box">
+      <div className="col-lg-6 pl-5 ml-5 mb-5">
         <h3 className="title-red title-section">
           SEE HOW IT WORKS (2 min video tour)
         </h3>
       </div>
     </div>
+
     <div className="row mt-5 pt-5 d-flex justify-content-between">
       <div className="col-lg-5">
         <img src={demo1} alt="Demo 1" className="mt-0 demo-photo" />
