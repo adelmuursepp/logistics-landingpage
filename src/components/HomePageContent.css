@@ -52,7 +52,7 @@ body {
 }
 
 .icon-homepage {
-  font-size: 30px;
+  font-size: 30px !important;
 }
 
 .client-logo {
