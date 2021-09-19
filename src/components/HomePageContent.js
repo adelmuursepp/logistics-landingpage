@@ -94,7 +94,7 @@ export default () => (
     </div>
     <div className="row mt-5 pt-5 d-flex justify-content-between">
       <div className="col-lg-5 quote-box">
-        <p className="quote-text text-green mb-1">
+        <p className="quote-text text-green mb-5 mb-md-1">
           "Do your clients have special requirements, the data they give you, or
           the data they want from you ? We have 30 years experience of producing
           bespoke routines to handle such needs. Each user can design their own
@@ -115,23 +115,35 @@ export default () => (
         </div>
         <div>
           <p className="quote-person text-red mt-5">SOME OF OUR CLIENTS</p>
-          <div className="d-flex justify-content-between mt-5">
-            <img src={avonLogo} alt="avonLogo" className="mt-0 client-logo" />
-            <img src={phseLogo} alt="phseLogo" className="mt-0 client-logo" />
-            <img
-              src={corporateLogo}
-              alt="corporateLogo"
-              className="mt-0 client-logo"
-            />
-            <img
-              src={westhouseLogo}
-              alt="westhouseLogo"
-              className="mt-0 client-logo"
-            />
+          <div className="d-flex row justify-content-between mt-5">
+            <div className=" col-lg-3 col-md-5 d-flex justify-content-center">
+              <img
+                src={avonLogo}
+                alt="avonLogo"
+                className="mt-0 client-logo "
+              />
+            </div>
+            <div className="col-lg-3 col-md-5 d-flex justify-content-center">
+              <img src={phseLogo} alt="phseLogo" className="mt-0 client-logo" />
+            </div>
+            <div className=" col-lg-3 col-md-5 d-flex justify-content-center">
+              <img
+                src={corporateLogo}
+                alt="corporateLogo"
+                className="mt-0 client-logo"
+              />
+            </div>
+            <div className="col-lg-3 col-md-5 d-flex justify-content-center">
+              <img
+                src={westhouseLogo}
+                alt="westhouseLogo"
+                className="mt-0 client-logo "
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="col-lg-6 video-box">
+      <div className="col-lg-6 video-box mt-5 mt-lg-1">
         <h3 className="title-red title-section">
           SEE HOW IT WORKS (2 min video tour)
         </h3>
