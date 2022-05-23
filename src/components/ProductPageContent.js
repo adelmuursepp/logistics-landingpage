@@ -108,7 +108,7 @@ export default () => (
         </div>
       </div>
 
-      <div className="col-lg-6 pl-5 ml-5 mb-5">
+      <div className="col-lg-6 pl-5 ml-5 mb-5 mt-5 mt-lg-0">
         <h3 className="title-red title-section">
           SEE HOW IT WORKS (2 min video tour)
         </h3>
@@ -125,7 +125,7 @@ export default () => (
       <div className="col-lg-5">
         <img src={demo2} alt="Demo 2" className="mt-0 demo-photo" />
       </div>
-      <div className="col-lg-5">
+      <div className="col-lg-5 mt-5 mt-lg-0">
         <img src={demo3} alt="Demo 3" className="mt-0 demo-photo" />
       </div>
     </div>

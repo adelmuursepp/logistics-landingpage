@@ -5,11 +5,7 @@ export default () => (
   <div>
     <footer className="footer">
       <div className="container taCenter">
-        <p>Information for the Footer</p>
-        <span>
-          © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-          <a href="https://thriveweb.com.au/">Thrive</a>.
-        </span>
+        <p>WebCAFS</p>
       </div>
     </footer>
   </div>

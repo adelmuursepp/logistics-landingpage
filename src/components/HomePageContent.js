@@ -113,8 +113,11 @@ export default () => (
             className="ProfilePhoto mt-0"
           />
         </div>
+      </div>
+      
+      <div className="col-lg-6 video-box mt-5 mt-lg-1">
         <div>
-          <p className="quote-person text-red mt-5">SOME OF OUR CLIENTS</p>
+          <p className="quote-person text-red">SOME OF OUR CLIENTS</p>
           <div className="d-flex row justify-content-between mt-5">
             <div className=" col-lg-3 col-md-5 d-flex justify-content-center my-3">
               <img
@@ -143,7 +146,12 @@ export default () => (
           </div>
         </div>
       </div>
-      <div className="col-lg-6 video-box mt-5 mt-lg-1">
+    </div>
+    <div className="row mt-5 pt-5 d-flex justify-content-between">
+      <div className="col-lg-5">
+        <img src={demo1} alt="Demo 1" className="mt-0 demo-photo" />
+      </div>
+      <div className="col-lg-6 quote-box mt-5 mt-lg-0 ">
         <h3 className="title-red title-section">
           SEE HOW IT WORKS (2 min video tour)
         </h3>
@@ -151,15 +159,9 @@ export default () => (
     </div>
     <div className="row mt-5 pt-5 d-flex justify-content-between">
       <div className="col-lg-5">
-        <img src={demo1} alt="Demo 1" className="mt-0 demo-photo" />
-      </div>
-      <div className="col-lg-6 quote-box"></div>
-    </div>
-    <div className="row mt-5 pt-5 d-flex justify-content-between">
-      <div className="col-lg-5">
         <img src={demo2} alt="Demo 2" className="mt-0 demo-photo" />
       </div>
-      <div className="col-lg-5">
+      <div className="col-lg-5 mt-5 mt-lg-0 ">
         <img src={demo3} alt="Demo 3" className="mt-0 demo-photo" />
       </div>
     </div>
