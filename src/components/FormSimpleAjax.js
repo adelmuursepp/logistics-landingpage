@@ -100,14 +100,6 @@ class Form extends React.Component {
             />
             <span>Message</span>
           </label>
-          <label className="Form--Label Form-Checkbox">
-            <input
-              className="Form--Input Form--Textarea Form--CheckboxInput"
-              name="newsletter"
-              type="checkbox"
-            />
-            <span>Get news updates</span>
-          </label>
 
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />

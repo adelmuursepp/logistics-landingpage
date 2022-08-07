@@ -22,7 +22,7 @@ import demo3 from '../../static/images/demo-3.png'
 export default () => (
   <div>
     <div className="row  pb-5 d-flex justify-content-between">
-      <div className="col-lg-7 mb-5 intro-text">
+      <div className="col-lg-7 mb-2 intro-text">
         <bold>
           30 years of experience producing bespoke routines to handle such needs
           quarantees that you are in good hands.
