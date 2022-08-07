@@ -101,7 +101,7 @@ export default () => (
           </li>
           <li>Driver App for iPhone and Android.</li>
         </ul>
-        <div className="pl-4">
+        <div className="pl-4 ml-4">
           <Link to="/product" className="link-small">
             Read more
           </Link>

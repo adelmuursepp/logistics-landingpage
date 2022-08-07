@@ -22,7 +22,7 @@ import demo3 from '../../static/images/demo-3.png'
 export default () => (
   <div>
     <div className="row  pb-5 d-flex justify-content-between">
-      <div className="col-lg-7 mb-5">
+      <div className="col-lg-7 mb-5 intro-text">
         <bold>
           30 years of experience producing bespoke routines to handle such needs
           quarantees that you are in good hands.
@@ -85,7 +85,7 @@ export default () => (
           </li>
           <li>Driver App for iPhone and Android.</li>
         </ul>
-        <div className="pl-4">
+        <div className="pl-4 ml-4">
           <Link to="/product" className="link-small">
             Read more
           </Link>
@@ -114,7 +114,7 @@ export default () => (
           />
         </div>
       </div>
-      
+
       <div className="col-lg-6 video-box mt-5 mt-lg-1">
         <div>
           <p className="quote-person text-red">SOME OF OUR CLIENTS</p>

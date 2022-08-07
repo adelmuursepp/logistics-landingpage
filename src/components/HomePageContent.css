@@ -9,8 +9,13 @@
   text-decoration: none;
 }
 
+.intro-text {
+  font-weight: 700;
+}
+
 .title-section {
   font-size: 1.2em;
+  font-weight: 700;
 }
 
 .title-green {
@@ -35,6 +40,7 @@
 
 .link-small {
   text-decoration: none;
+  margin-left: 10px;
 }
 
 .link-small:hover {
