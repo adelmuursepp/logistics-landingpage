@@ -94,7 +94,7 @@ export default () => (
     </div>
     <div className="row mt-5 pt-5 d-flex justify-content-between">
       <div className="col-lg-5 quote-box">
-        <p className="quote-text text-green mb-5 mb-md-1">
+        <p className="quote-text text-red mb-5 mb-md-1">
           "Do your clients have special requirements, the data they give you, or
           the data they want from you ? We have 30 years experience of producing
           bespoke routines to handle such needs. Each user can design their own
